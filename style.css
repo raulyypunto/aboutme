@@ -1,0 +1,48 @@
+.container-fluid{
+    min-width: 350px;
+    background: linear-gradient(131deg, #604661, #b6850d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationBack 7s ease infinite;
+    -moz-animation: AnimationBack 7s ease infinite;
+    animation: AnimationBack 7s ease infinite;
+}
+.btn{
+    margin-top: 3rem;
+    min-width: 100%;
+}
+.imglogo{
+    max-width: 10%;
+    max-height: 100%;
+    margin-top: 3rem;
+}
+.css-selector {
+    background: linear-gradient(131deg, #551756, #b6850d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationBack 17s ease infinite;
+    -moz-animation: AnimationBack 17s ease infinite;
+    animation: AnimationBack 17s ease infinite;
+}
+#yop{
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4%;
+    margin-top: 3rem;
+}
+@-webkit-keyframes AnimationBack {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@-moz-keyframes AnimationBack {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@keyframes AnimationBack {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
